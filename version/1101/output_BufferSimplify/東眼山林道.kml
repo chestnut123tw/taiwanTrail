@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="東眼山林道" id="東眼山林道">
+	<SimpleField name="OBJECTID" type="float"></SimpleField>
+	<SimpleField name="system" type="string"></SimpleField>
+	<SimpleField name="number" type="string"></SimpleField>
+	<SimpleField name="林區" type="string"></SimpleField>
+	<SimpleField name="林道名" type="string"></SimpleField>
+	<SimpleField name="主支線" type="string"></SimpleField>
+	<SimpleField name="原編碼" type="string"></SimpleField>
+	<SimpleField name="公路專" type="string"></SimpleField>
+	<SimpleField name="林道規" type="string"></SimpleField>
+	<SimpleField name="林道種" type="string"></SimpleField>
+	<SimpleField name="開設年" type="string"></SimpleField>
+	<SimpleField name="縣市" type="string"></SimpleField>
+	<SimpleField name="鄉鎮" type="string"></SimpleField>
+	<SimpleField name="村里" type="string"></SimpleField>
+	<SimpleField name="途經聚" type="string"></SimpleField>
+	<SimpleField name="事業區" type="string"></SimpleField>
+	<SimpleField name="起點" type="string"></SimpleField>
+	<SimpleField name="終點" type="string"></SimpleField>
+	<SimpleField name="起點X坐" type="float"></SimpleField>
+	<SimpleField name="起點Y坐" type="float"></SimpleField>
+	<SimpleField name="終點X坐" type="float"></SimpleField>
+	<SimpleField name="終點Y坐" type="float"></SimpleField>
+	<SimpleField name="車行長" type="float"></SimpleField>
+	<SimpleField name="步行長" type="float"></SimpleField>
+	<SimpleField name="中斷長" type="float"></SimpleField>
+	<SimpleField name="檢討後" type="float"></SimpleField>
+	<SimpleField name="A_C鋪面" type="float"></SimpleField>
+	<SimpleField name="P_C鋪面" type="float"></SimpleField>
+	<SimpleField name="碎石或" type="float"></SimpleField>
+	<SimpleField name="管制點" type="string"></SimpleField>
+	<SimpleField name="集水區" type="string"></SimpleField>
+	<SimpleField name="子集水" type="string"></SimpleField>
+	<SimpleField name="進入林" type="string"></SimpleField>
+	<SimpleField name="備註" type="string"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>東眼山林道</name>
+  <Placemark>
+	<name>東眼山林道</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#東眼山林道">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="system">主線</SimpleData>
+		<SimpleData name="number">03</SimpleData>
+		<SimpleData name="林區">新竹處</SimpleData>
+		<SimpleData name="林道規">六級路</SimpleData>
+		<SimpleData name="林道種">主要</SimpleData>
+		<SimpleData name="開設年">82</SimpleData>
+		<SimpleData name="縣市">桃園市</SimpleData>
+		<SimpleData name="鄉鎮">復興區</SimpleData>
+		<SimpleData name="村里">霞雲里</SimpleData>
+		<SimpleData name="途經聚">無</SimpleData>
+		<SimpleData name="事業區">大溪8</SimpleData>
+		<SimpleData name="起點">桃119線終點</SimpleData>
+		<SimpleData name="終點">東眼山國家森林遊樂區收費站</SimpleData>
+		<SimpleData name="起點X坐">290189</SimpleData>
+		<SimpleData name="起點Y坐">2748363</SimpleData>
+		<SimpleData name="終點X坐">291245</SimpleData>
+		<SimpleData name="終點Y坐">2747158</SimpleData>
+		<SimpleData name="車行長">2.61</SimpleData>
+		<SimpleData name="步行長">0</SimpleData>
+		<SimpleData name="中斷長">0</SimpleData>
+		<SimpleData name="檢討後">2.61</SimpleData>
+		<SimpleData name="A_C鋪面">2.61</SimpleData>
+		<SimpleData name="碎石或">0</SimpleData>
+		<SimpleData name="集水區">淡水河流域</SimpleData>
+		<SimpleData name="進入林">1.1K</SimpleData>
+		<SimpleData name="Shape_Leng">2607.45021077</SimpleData>
+		<SimpleData name="Shape_STLe">2607.45021077</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>121.396401456421,24.840833564235 121.395741740312,24.841728649507 121.395728005995,24.8427088380754 121.396277555785,24.843551133337 121.397228432106,24.8440072895199 121.400424245167,24.8435720442268 121.402279323654,24.8439124860613 121.405638415164,24.8433244772263 121.406972997437,24.842537078667 121.408853150539,24.8409324793511 121.412021958609,24.8369847576992 121.411775521066,24.8356204606528 121.410485752543,24.8346975118115 121.40983615413,24.8335598194361 121.410013572241,24.8311188564818 121.409500669521,24.8301057909628 121.408584331058,24.8295943055013 121.407362463771,24.8296390481248 121.406493976555,24.8302158909141 121.405716988233,24.8314650456789 121.405133372242,24.8349033403556 121.406792516286,24.8371494471646 121.404894464521,24.8384068901731 121.404061246066,24.8396308850518 121.402064511925,24.8402478257642 121.400221108171,24.839853344094 121.396401456421,24.840833564235</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

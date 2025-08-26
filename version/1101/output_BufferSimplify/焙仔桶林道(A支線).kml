@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="焙仔桶林道_A支線_" id="焙仔桶林道_A支線_">
+	<SimpleField name="OBJECTID" type="float"></SimpleField>
+	<SimpleField name="system" type="string"></SimpleField>
+	<SimpleField name="number" type="string"></SimpleField>
+	<SimpleField name="林區" type="string"></SimpleField>
+	<SimpleField name="林道名" type="string"></SimpleField>
+	<SimpleField name="主支線" type="string"></SimpleField>
+	<SimpleField name="原編碼" type="string"></SimpleField>
+	<SimpleField name="公路專" type="string"></SimpleField>
+	<SimpleField name="林道規" type="string"></SimpleField>
+	<SimpleField name="林道種" type="string"></SimpleField>
+	<SimpleField name="開設年" type="string"></SimpleField>
+	<SimpleField name="縣市" type="string"></SimpleField>
+	<SimpleField name="鄉鎮" type="string"></SimpleField>
+	<SimpleField name="村里" type="string"></SimpleField>
+	<SimpleField name="途經聚" type="string"></SimpleField>
+	<SimpleField name="事業區" type="string"></SimpleField>
+	<SimpleField name="起點" type="string"></SimpleField>
+	<SimpleField name="終點" type="string"></SimpleField>
+	<SimpleField name="起點X坐" type="float"></SimpleField>
+	<SimpleField name="起點Y坐" type="float"></SimpleField>
+	<SimpleField name="終點X坐" type="float"></SimpleField>
+	<SimpleField name="終點Y坐" type="float"></SimpleField>
+	<SimpleField name="車行長" type="float"></SimpleField>
+	<SimpleField name="步行長" type="float"></SimpleField>
+	<SimpleField name="中斷長" type="float"></SimpleField>
+	<SimpleField name="檢討後" type="float"></SimpleField>
+	<SimpleField name="A_C鋪面" type="float"></SimpleField>
+	<SimpleField name="P_C鋪面" type="float"></SimpleField>
+	<SimpleField name="碎石或" type="float"></SimpleField>
+	<SimpleField name="管制點" type="string"></SimpleField>
+	<SimpleField name="集水區" type="string"></SimpleField>
+	<SimpleField name="子集水" type="string"></SimpleField>
+	<SimpleField name="進入林" type="string"></SimpleField>
+	<SimpleField name="備註" type="string"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>焙仔桶林道_A支線_</name>
+  <Placemark>
+	<name>焙仔桶林道(A支線)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#焙仔桶林道_A支線_">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="system">支線</SimpleData>
+		<SimpleData name="number">44-1</SimpleData>
+		<SimpleData name="林區">嘉義處</SimpleData>
+		<SimpleData name="林道規">丙種</SimpleData>
+		<SimpleData name="林道種">次要</SimpleData>
+		<SimpleData name="開設年">日據時代</SimpleData>
+		<SimpleData name="縣市">嘉義縣</SimpleData>
+		<SimpleData name="鄉鎮">竹崎鄉、阿里山鄉</SimpleData>
+		<SimpleData name="村里">中和村、樂野村</SimpleData>
+		<SimpleData name="途經聚">竹崎鄉中和村、阿里山鄉樂野村</SimpleData>
+		<SimpleData name="事業區">阿里山147、148</SimpleData>
+		<SimpleData name="起點">阿里山事業區148林班</SimpleData>
+		<SimpleData name="終點">阿里山事業區147林班</SimpleData>
+		<SimpleData name="起點X坐">219914</SimpleData>
+		<SimpleData name="起點Y坐">2597214</SimpleData>
+		<SimpleData name="終點X坐">219217</SimpleData>
+		<SimpleData name="終點Y坐">2597492</SimpleData>
+		<SimpleData name="車行長">3.7</SimpleData>
+		<SimpleData name="步行長">0</SimpleData>
+		<SimpleData name="中斷長">0</SimpleData>
+		<SimpleData name="檢討後">3.7</SimpleData>
+		<SimpleData name="A_C鋪面">1.42</SimpleData>
+		<SimpleData name="碎石或">0</SimpleData>
+		<SimpleData name="集水區">八掌溪流域、曾文溪流域</SimpleData>
+		<SimpleData name="進入林">A0K</SimpleData>
+		<SimpleData name="Shape_Leng">3673.96533583</SimpleData>
+		<SimpleData name="Shape_STLe">3673.96533584</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>120.696682679859,23.4802670736453 120.697030939576,23.4825066825218 120.698095549099,23.4835643403989 120.699317766054,23.4840508354036 120.701700507628,23.4866716827466 120.701448563612,23.4880926031677 120.70231477585,23.4892420271252 120.703564400931,23.4895349417437 120.704924965395,23.4890881522807 120.705799428876,23.4897414125928 120.706879231661,23.4898823930761 120.70920095669,23.488321074449 120.709580620934,23.4872859338804 120.709313029346,23.4855778208493 120.70481072383,23.4805240101632 120.706333359464,23.4797645338635 120.707385522167,23.4785518765984 120.707402701842,23.4772167669939 120.706534865087,23.4761978381963 120.704767053474,23.4760248218613 120.703471031522,23.4771215265888 120.700673492271,23.4781215471623 120.699883014747,23.4788153335353 120.698907517862,23.4784214188031 120.697854658857,23.4785560249009 120.696950339351,23.479297677752 120.696682679859,23.4802670736453</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="雪山坑林道" id="雪山坑林道">
+	<SimpleField name="OBJECTID" type="float"></SimpleField>
+	<SimpleField name="system" type="string"></SimpleField>
+	<SimpleField name="number" type="string"></SimpleField>
+	<SimpleField name="林區" type="string"></SimpleField>
+	<SimpleField name="林道名" type="string"></SimpleField>
+	<SimpleField name="主支線" type="string"></SimpleField>
+	<SimpleField name="原編碼" type="string"></SimpleField>
+	<SimpleField name="公路專" type="string"></SimpleField>
+	<SimpleField name="林道規" type="string"></SimpleField>
+	<SimpleField name="林道種" type="string"></SimpleField>
+	<SimpleField name="開設年" type="string"></SimpleField>
+	<SimpleField name="縣市" type="string"></SimpleField>
+	<SimpleField name="鄉鎮" type="string"></SimpleField>
+	<SimpleField name="村里" type="string"></SimpleField>
+	<SimpleField name="途經聚" type="string"></SimpleField>
+	<SimpleField name="事業區" type="string"></SimpleField>
+	<SimpleField name="起點" type="string"></SimpleField>
+	<SimpleField name="終點" type="string"></SimpleField>
+	<SimpleField name="起點X坐" type="float"></SimpleField>
+	<SimpleField name="起點Y坐" type="float"></SimpleField>
+	<SimpleField name="終點X坐" type="float"></SimpleField>
+	<SimpleField name="終點Y坐" type="float"></SimpleField>
+	<SimpleField name="車行長" type="float"></SimpleField>
+	<SimpleField name="步行長" type="float"></SimpleField>
+	<SimpleField name="中斷長" type="float"></SimpleField>
+	<SimpleField name="檢討後" type="float"></SimpleField>
+	<SimpleField name="A_C鋪面" type="float"></SimpleField>
+	<SimpleField name="P_C鋪面" type="float"></SimpleField>
+	<SimpleField name="碎石或" type="float"></SimpleField>
+	<SimpleField name="管制點" type="string"></SimpleField>
+	<SimpleField name="集水區" type="string"></SimpleField>
+	<SimpleField name="子集水" type="string"></SimpleField>
+	<SimpleField name="進入林" type="string"></SimpleField>
+	<SimpleField name="備註" type="string"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>雪山坑林道</name>
+  <Placemark>
+	<name>雪山坑林道</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#雪山坑林道">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="system">主線</SimpleData>
+		<SimpleData name="number">22</SimpleData>
+		<SimpleData name="林區">東勢處</SimpleData>
+		<SimpleData name="林道名">雪山坑林道</SimpleData>
+		<SimpleData name="原編碼">540支線</SimpleData>
+		<SimpleData name="林道規">丙種</SimpleData>
+		<SimpleData name="林道種">次要</SimpleData>
+		<SimpleData name="開設年">不可考</SimpleData>
+		<SimpleData name="縣市">臺中市</SimpleData>
+		<SimpleData name="鄉鎮">和平區</SimpleData>
+		<SimpleData name="村里">達觀里</SimpleData>
+		<SimpleData name="途經聚">和平區桃山部落</SimpleData>
+		<SimpleData name="事業區">大安溪114、115、107、108</SimpleData>
+		<SimpleData name="起點">中47線24K雪山坑橋</SimpleData>
+		<SimpleData name="終點">大安溪107林班</SimpleData>
+		<SimpleData name="起點X坐">243292</SimpleData>
+		<SimpleData name="起點Y坐">2692086</SimpleData>
+		<SimpleData name="終點X坐">248242</SimpleData>
+		<SimpleData name="終點Y坐">2691994</SimpleData>
+		<SimpleData name="車行長">14.69</SimpleData>
+		<SimpleData name="步行長">0</SimpleData>
+		<SimpleData name="中斷長">0.02</SimpleData>
+		<SimpleData name="檢討後">14.71</SimpleData>
+		<SimpleData name="A_C鋪面">0</SimpleData>
+		<SimpleData name="碎石或">0</SimpleData>
+		<SimpleData name="集水區">大安溪流域</SimpleData>
+		<SimpleData name="子集水">大安溪</SimpleData>
+		<SimpleData name="進入林">0K+050</SimpleData>
+		<SimpleData name="備註">修正管制點</SimpleData>
+		<SimpleData name="Shape_Leng">14586.7800976</SimpleData>
+		<SimpleData name="Shape_STLe">14586.7800976</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>120.933166934846,24.3329071233969 120.93222125784,24.333692057974 120.931934611838,24.3347767823048 120.932398574396,24.3358087187797 120.933435939269,24.336393697555 120.934821835114,24.3362633145694 120.936604169098,24.3351916466573 120.940320159952,24.334587070862 120.943275714578,24.3320315501399 120.945267855875,24.3289437697991 120.946287058957,24.3281755288995 120.949087097784,24.3277142408741 120.9514004905,24.3265008781786 120.954414694416,24.3267889232894 120.957291675634,24.3263433624008 120.960612359863,24.322556611953 120.961696696212,24.3228532452098 120.963282569065,24.3225392208955 120.965168792156,24.3226814999052 120.967720826617,24.3245383419464 120.969546190178,24.324539541846 120.97291010296,24.3214829517558 120.976797945333,24.3170394553354 120.979820120757,24.3162245582149 120.980809464287,24.315318832201 120.983542047417,24.3162908484469 120.982817978848,24.3172607941753 120.98288320887,24.3184889459884 120.981296145225,24.3205048209616 120.981094320383,24.3215259392612 120.98301323821,24.324280298934 120.984450907291,24.3250382076021 120.985171190736,24.3267802956497 120.984778106783,24.3273929489088 120.983005706189,24.3282302616901 120.98144436961,24.3302382786323 120.980155563184,24.3309488639787 120.978863703234,24.3330382742843 120.97873272496,24.3339146615564 120.979179400434,24.3348858469516 120.980018887014,24.3354359405361 120.98338368908,24.3355116181403 120.984240931321,24.334924960128 120.984897499674,24.3337859466217 120.98482340071,24.3321248455224 120.985544816054,24.3310646923203 120.987477468092,24.3305398227235 120.988356345083,24.3289106887036 120.989641004931,24.3275648911439 120.989584203537,24.3263230227531 120.988158217461,24.3237144957137 120.988089421797,24.3216324875939 120.987369543373,24.3208990147089 120.986131391278,24.3205496328409 120.987377397983,24.318555128784 120.988770918797,24.3175119708803 120.989440807592,24.3154834089791 120.989333717865,24.3144959393868 120.988419743356,24.3134901593473 120.986834825528,24.3131680842697 120.9838113,24.3094986959749 120.982920198512,24.3091453387484 120.98188153841,24.3092291767593 120.97743731237,24.3124493191275 120.974854054894,24.313507426697 120.96914582453,24.3195425722779 120.968688056849,24.3197592169243 120.96669171232,24.3189556254852 120.96519542505,24.3190078563003 120.964897115184,24.3180741717576 120.964218872103,24.3174440944106 120.962093868047,24.3172672001342 120.958397278683,24.3191097261855 120.954970326095,24.3230596690113 120.95320082784,24.3225680250056 120.950050116309,24.3227013285516 120.947581603107,24.3242723138923 120.945719107624,24.3244630797767 120.943752158374,24.325270736274 120.941233102275,24.3277175609607 120.939471026229,24.3302801997629 120.938072434799,24.331177165707 120.934827918959,24.3316958906137 120.933166934846,24.3329071233969</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

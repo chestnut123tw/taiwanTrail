@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="祝山林道_B支線_" id="祝山林道_B支線_">
+	<SimpleField name="OBJECTID" type="float"></SimpleField>
+	<SimpleField name="system" type="string"></SimpleField>
+	<SimpleField name="number" type="string"></SimpleField>
+	<SimpleField name="林區" type="string"></SimpleField>
+	<SimpleField name="林道名" type="string"></SimpleField>
+	<SimpleField name="主支線" type="string"></SimpleField>
+	<SimpleField name="原編碼" type="string"></SimpleField>
+	<SimpleField name="公路專" type="string"></SimpleField>
+	<SimpleField name="林道規" type="string"></SimpleField>
+	<SimpleField name="林道種" type="string"></SimpleField>
+	<SimpleField name="開設年" type="string"></SimpleField>
+	<SimpleField name="縣市" type="string"></SimpleField>
+	<SimpleField name="鄉鎮" type="string"></SimpleField>
+	<SimpleField name="村里" type="string"></SimpleField>
+	<SimpleField name="途經聚" type="string"></SimpleField>
+	<SimpleField name="事業區" type="string"></SimpleField>
+	<SimpleField name="起點" type="string"></SimpleField>
+	<SimpleField name="終點" type="string"></SimpleField>
+	<SimpleField name="起點X坐" type="float"></SimpleField>
+	<SimpleField name="起點Y坐" type="float"></SimpleField>
+	<SimpleField name="終點X坐" type="float"></SimpleField>
+	<SimpleField name="終點Y坐" type="float"></SimpleField>
+	<SimpleField name="車行長" type="float"></SimpleField>
+	<SimpleField name="步行長" type="float"></SimpleField>
+	<SimpleField name="中斷長" type="float"></SimpleField>
+	<SimpleField name="檢討後" type="float"></SimpleField>
+	<SimpleField name="A_C鋪面" type="float"></SimpleField>
+	<SimpleField name="P_C鋪面" type="float"></SimpleField>
+	<SimpleField name="碎石或" type="float"></SimpleField>
+	<SimpleField name="管制點" type="string"></SimpleField>
+	<SimpleField name="集水區" type="string"></SimpleField>
+	<SimpleField name="子集水" type="string"></SimpleField>
+	<SimpleField name="進入林" type="string"></SimpleField>
+	<SimpleField name="備註" type="string"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+	<SimpleField name="Shape_STLe" type="float"></SimpleField>
+</Schema>
+<Folder><name>祝山林道_B支線_</name>
+  <Placemark>
+	<name>祝山林道(B支線)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#祝山林道_B支線_">
+		<SimpleData name="OBJECTID">90</SimpleData>
+		<SimpleData name="system">支線</SimpleData>
+		<SimpleData name="number">42-2</SimpleData>
+		<SimpleData name="林區">嘉義處</SimpleData>
+		<SimpleData name="主支線">支線</SimpleData>
+		<SimpleData name="公路專">嘉專1-1線</SimpleData>
+		<SimpleData name="林道規">乙種</SimpleData>
+		<SimpleData name="林道種">主要</SimpleData>
+		<SimpleData name="開設年">不可考</SimpleData>
+		<SimpleData name="縣市">嘉義縣</SimpleData>
+		<SimpleData name="鄉鎮">阿里山鄉</SimpleData>
+		<SimpleData name="村里">香林村、中山村</SimpleData>
+		<SimpleData name="途經聚">無</SimpleData>
+		<SimpleData name="事業區">阿里山5</SimpleData>
+		<SimpleData name="起點">阿里山事業區5林班</SimpleData>
+		<SimpleData name="終點">阿里山事業區5林班</SimpleData>
+		<SimpleData name="起點X坐">229781</SimpleData>
+		<SimpleData name="起點Y坐">2600654</SimpleData>
+		<SimpleData name="終點X坐">230065</SimpleData>
+		<SimpleData name="終點Y坐">2600848</SimpleData>
+		<SimpleData name="車行長">0.9</SimpleData>
+		<SimpleData name="步行長">0</SimpleData>
+		<SimpleData name="中斷長">0</SimpleData>
+		<SimpleData name="檢討後">0.9</SimpleData>
+		<SimpleData name="A_C鋪面">0.9</SimpleData>
+		<SimpleData name="碎石或">0</SimpleData>
+		<SimpleData name="集水區">濁水溪流域、濁水溪流域、曾文溪流域</SimpleData>
+		<SimpleData name="進入林">B0K</SimpleData>
+		<SimpleData name="Shape_Leng">896.31069332</SimpleData>
+		<SimpleData name="Shape_STLe">896.31069332</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>120.800376159511,23.5099102088431 120.800543196361,23.511755080916 120.802930381024,23.5140165417498 120.805027646136,23.5142985490689 120.80660483197,23.5133848625508 120.806936050898,23.512301877649 120.806470139303,23.5097559103397 120.805557412456,23.5090228414611 120.804459783137,23.5089056971641 120.80303910288,23.5073876078815 120.801708999855,23.5071460412098 120.800631621277,23.5076546604191 120.80006638673,23.5087909978801 120.800376159511,23.5099102088431</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
